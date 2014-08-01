@@ -1,0 +1,9 @@
+<launch>
+  
+  <node name="iri_color_interesting_points_tableware" pkg="iri_color_interesting_points_tableware" type="iri_color_interesting_points_tableware" output="screen" >
+    <remap from="/iri_color_interesting_points_tableware/img_rgb" to="/estirabot/camera/rgb/image_color" />
+    <remap from="/iri_color_interesting_points_tableware/point_cloud" to="/estirabot/camera/depth_registered/points" />
+  </node>
+
+</launch>
+

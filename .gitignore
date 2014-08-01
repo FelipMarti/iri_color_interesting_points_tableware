@@ -44,6 +44,8 @@ qtcreator-*
 /planning/src
 
 *~$
+*~
+*.svn
 
 # Emacs
 .#*
